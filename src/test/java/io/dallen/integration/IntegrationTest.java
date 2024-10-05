@@ -161,4 +161,15 @@ public class IntegrationTest {
         );
         assertEquals(expected, actual);
     }
+
+    @org.junit.Test
+    public void T01() {
+        IntegrationTestHarness harness = new IntegrationTestHarness("T01");
+
+        IntegrationTestHarness.TestResult actual = harness.run();
+        IntegrationTestHarness.TestResult expected = new IntegrationTestHarness.TestResult(
+                0, "t01\n", ""
+        );
+        assertEquals(expected, actual);
+    }
 }
