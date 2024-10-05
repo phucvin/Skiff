@@ -4,7 +4,6 @@ Debug/
 SuperCC/Debug/
 *.o
 *.su
-*.c
 Target/Skiff
 Core/.vscode/
 Target/SkiffTest
@@ -16,4 +15,3 @@ target/
 test.skiff
 *.out
 *.dSYM/
-working/
